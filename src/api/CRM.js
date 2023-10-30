@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 
 // const BASE_URL = 'http://allgoodsbazaar.lp-crm.biz/api/addNewOrder.html';
 
@@ -25,21 +25,12 @@ import axios from 'axios';
 
 //   return response.data;
 // };
-const API_KEY = 'Zjk1MzJmNTNjMjJjOTIxMWJhMDk4MmRhNjFiYjI5MTk5Njk4NmFiYQ';
 
-axios.defaults.baseURL = 'https://openapi.keycrm.app/v1';
+// axios.defaults.baseURL = 'http://localhost:5000';
 
-export const newOrder = (name, phone, color) => {
-  axios.defaults.headers.common['Authorization'] = `Bearer ${API_KEY}`;
+// export const newOrder = (dataOrder) => {
+//   const response = axios.post('/api/orders', dataOrder);
+//   console.log(response.data)
 
-  const response = axios.post('/order', {
-    source_id: 1,
-    buyer: {
-      full_name: name,
-      phone,
-    },
-    buyer_comment: color,
-  });
-
-  return response.data;
-};
+//   return response.data;
+// };
