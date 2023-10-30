@@ -1,4 +1,4 @@
-// import axios from 'axios';
+import axios from 'axios';
 
 // const BASE_URL = 'http://allgoodsbazaar.lp-crm.biz/api/addNewOrder.html';
 
@@ -26,11 +26,10 @@
 //   return response.data;
 // };
 
-// axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'http://localhost:3001';
 
-// export const newOrder = (dataOrder) => {
-//   const response = axios.post('/api/orders', dataOrder);
-//   console.log(response.data)
+export const newOrder = (name, phone, color) => {
+  const response = axios.post('/api/orders', {name, phone, color});
 
-//   return response.data;
-// };
+  return response.data;
+};
