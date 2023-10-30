@@ -11,6 +11,7 @@ import {
   StyledForm,
   StyledIconClose,
 } from './Form.styled';
+// import { newOrder } from 'api/CRM';
 
 const Form = ({ closeModal }) => {
   const [color, setColor] = useState('');
@@ -46,7 +47,11 @@ const Form = ({ closeModal }) => {
     message += `Телефон: ${phone}\n`;
     message += `Колір ${color}`;
 
+    console.log(phone)
+
     telegramOrder(message);
+
+    // newOrder(name, phone, color).then(data => console.log(data))
 
     navigate('/thanks');
 
