@@ -58,4 +58,5 @@ export const StyledIconClose = styled.img`
   position: absolute;
   top: 10px;
   right: 10px;
+  cursor: pointer;
 `;
