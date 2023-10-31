@@ -8,14 +8,12 @@ export const StyledThkSection = styled.section`
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 5px;
   width: 310px;
-  /* min-width: 320px;
-  max-width: 480px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 
   background-color: ${colors.oldPriceBgColor};
@@ -25,7 +23,7 @@ export const StyledThkSection = styled.section`
 export const StyledThkTitle = styled(StyledSecTitle)`
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 50px;
   width: 310px;
 
   color: ${colors.mainTextColor};
