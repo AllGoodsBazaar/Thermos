@@ -55,7 +55,7 @@ export const StyledName = styled.p`
 `;
 
 export const StyledChar = styled.p`
-  padding: 0 10px;
+  padding: 5px 10px;
   margin-top: 5px;
   font-size: 16px;
   font-weight: 500;
