@@ -5,10 +5,14 @@ import brelokT from '../../../images/additionalOrder/additionalOrder_1/brelokT.j
 import {
   StyledAdditImg,
   StyledAdditTittle,
-    StyledAdditWrapper,
-    StyledRightImg,
-    StyledRigthImgWrapper,
+  StyledAdditWrapper,
+  StyledRightImg,
+  StyledRigthImgWrapper,
   StyledImgWrapper,
+  StyledNameWrapper,
+  StyledName,
+  StyledChar,
+  StyledAdditBtn,
 } from '../AdditionalOrder.styled';
 
 const AdditionalOrderFirst = () => {
@@ -21,10 +25,16 @@ const AdditionalOrderFirst = () => {
       <StyledImgWrapper>
         <StyledAdditImg src={brelok} alt="Фонарік-брелок" />
         <StyledRigthImgWrapper>
-            <StyledRightImg src={brelokS} alt="Фонарік-брелок" />
-            <StyledRightImg src={brelokT} alt="Фонарік-брелок" />
+          <StyledRightImg src={brelokS} alt="Фонарік-брелок" />
+          <StyledRightImg src={brelokT} alt="Фонарік-брелок" />
         </StyledRigthImgWrapper>
       </StyledImgWrapper>
+      <StyledNameWrapper>
+        <StyledName>Брелок-ліхтарик</StyledName>
+        <StyledName>199 грн.</StyledName>
+      </StyledNameWrapper>
+      <StyledChar>Опис та характеристики</StyledChar>
+      <StyledAdditBtn type="button">Замовити</StyledAdditBtn>
     </StyledAdditWrapper>
   );
 };
