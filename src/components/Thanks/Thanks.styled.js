@@ -9,8 +9,9 @@ export const StyledThkSection = styled.section`
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  min-width: 320px;
-  max-width: 480px;
+  width: 310px;
+  /* min-width: 320px;
+  max-width: 480px; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +25,7 @@ export const StyledThkSection = styled.section`
 export const StyledThkTitle = styled(StyledSecTitle)`
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 310px;
 
   color: ${colors.mainTextColor};
@@ -54,9 +55,9 @@ export const StyledThkBtn = styled.button`
   position: absolute;
   top: 16px;
   left: 16px;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   cursor: pointer;
 
   border: none;

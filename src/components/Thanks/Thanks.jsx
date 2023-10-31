@@ -23,7 +23,7 @@ const Thanks = () => {
           navigate('/');
         }}
       >
-        Повернутись назад
+        Назад
       </StyledThkBtn>
       <AdditionalOrderFirst />
     </StyledThkSection>
