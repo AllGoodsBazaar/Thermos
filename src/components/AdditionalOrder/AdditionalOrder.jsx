@@ -1,5 +1,7 @@
 import React from 'react';
 import AdditionalOrderFirst from './AdditionalOrderFirst/AdditionalOrderFirst';
+import AdditionalOrderSecond from './AdditionalOrderSecond/AdditionalOrderSecond';
+import AdditionalOrderThird from './AdditionalOrderThird/AdditionalOrderThird';
 import {
   StyledAdditTittle,
   StyledAdditItem,
@@ -16,6 +18,8 @@ const AdditionalOrder = () => {
       <StyledAdditList>
         <StyledAdditItem>
           <AdditionalOrderFirst />
+          <AdditionalOrderSecond />
+          <AdditionalOrderThird />
         </StyledAdditItem>
       </StyledAdditList>
     </>
