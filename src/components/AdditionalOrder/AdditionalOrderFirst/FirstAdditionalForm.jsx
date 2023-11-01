@@ -11,7 +11,7 @@ import {
   StyledIconClose,
 } from '../../Form/Form.styled';
 
-const FirstAdditionalForm = ({closeModal}) => {
+const FirstAdditionalForm = ({ closeModal }) => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
 
@@ -65,7 +65,7 @@ const FirstAdditionalForm = ({closeModal}) => {
         onChange={handleChange}
       />
       <StyledFormBtn type="submit">Замовити</StyledFormBtn>
-      <StyledIconClose src={iconClose} alt="Icon Close" onClick={closeModal}/>
+      <StyledIconClose src={iconClose} alt="Icon Close" onClick={closeModal} />
     </StyledForm>
   );
 };

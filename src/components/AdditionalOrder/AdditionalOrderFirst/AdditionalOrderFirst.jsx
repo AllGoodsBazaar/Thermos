@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import brelok from '../../../images/additionalOrder/additionalOrder_1/fonarik-brelok.jpg';
 import brelokS from '../../../images/additionalOrder/additionalOrder_1/brelokS.jpg';
 import brelokT from '../../../images/additionalOrder/additionalOrder_1/brelokT.jpg';
@@ -14,13 +14,13 @@ import {
   StyledChar,
   StyledAdditBtn,
   StyledCharItem,
-  StyledCharList
+  StyledCharList,
 } from '../AdditionalOrder.styled';
 
 const AdditionalOrderFirst = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const handleOpenModal = () => {
+  const handleOpenModal = () => {
     setIsModalOpen(true);
 
     document.body.classList.add('no-scroll');
@@ -52,8 +52,10 @@ const AdditionalOrderFirst = () => {
         <StyledCharItem>4 режими освітлення</StyledCharItem>
         <StyledCharItem>Вбудований магніт</StyledCharItem>
       </StyledCharList>
-      <StyledAdditBtn type="button" onClick={handleOpenModal}>Замовити</StyledAdditBtn>
-      {isModalOpen && <FirstAdditionalModal closeModal={handleCloseModal}/>}
+      <StyledAdditBtn type="button" onClick={handleOpenModal}>
+        Замовити
+      </StyledAdditBtn>
+      {isModalOpen && <FirstAdditionalModal closeModal={handleCloseModal} />}
     </StyledAdditWrapper>
   );
 };
