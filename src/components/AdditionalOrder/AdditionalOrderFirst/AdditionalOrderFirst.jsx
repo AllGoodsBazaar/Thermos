@@ -4,7 +4,6 @@ import brelokS from '../../../images/additionalOrder/additionalOrder_1/brelokS.j
 import brelokT from '../../../images/additionalOrder/additionalOrder_1/brelokT.jpg';
 import {
   StyledAdditImg,
-  StyledAdditTittle,
   StyledAdditWrapper,
   StyledRightImg,
   StyledRigthImgWrapper,
@@ -13,15 +12,13 @@ import {
   StyledName,
   StyledChar,
   StyledAdditBtn,
+  StyledCharItem,
+  StyledCharList
 } from '../AdditionalOrder.styled';
 
 const AdditionalOrderFirst = () => {
   return (
     <StyledAdditWrapper>
-      <StyledAdditTittle>
-        Нехай блекаут не стане перешкодою! Оберіть наші ліхтарі і створіть
-        комфорт для себе та своєї родини.
-      </StyledAdditTittle>
       <StyledImgWrapper>
         <StyledAdditImg src={brelok} alt="Фонарік-брелок" />
         <StyledRigthImgWrapper>
@@ -33,7 +30,13 @@ const AdditionalOrderFirst = () => {
         <StyledName>Брелок-ліхтарик</StyledName>
         <StyledName>199 грн.</StyledName>
       </StyledNameWrapper>
-      <StyledChar>Опис та характеристики</StyledChar>
+      <StyledChar>Особливості</StyledChar>
+      <StyledCharList>
+        <StyledCharItem>Живлення від USB-кабеля</StyledCharItem>
+        <StyledCharItem>Час зарядки 1.5 години</StyledCharItem>
+        <StyledCharItem>4 режими освітлення</StyledCharItem>
+        <StyledCharItem>Вбудований магніт</StyledCharItem>
+      </StyledCharList>
       <StyledAdditBtn type="button">Замовити</StyledAdditBtn>
     </StyledAdditWrapper>
   );

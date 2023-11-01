@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { colors } from 'styles/globalStyles';
 import { StyledBtn } from 'components/Button/Button.styled';
+import { StyledItem } from 'components/Benefits/Benefits.styled';
 
 export const StyledAdditWrapper = styled.div`
   margin-top: 40px;
@@ -29,7 +30,7 @@ export const StyledRigthImgWrapper = styled.div`
 
 export const StyledAdditTittle = styled.h2`
   width: 310px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-size: 16px;
   text-align: center;
 
@@ -55,13 +56,16 @@ export const StyledName = styled.p`
 `;
 
 export const StyledChar = styled.p`
+  display: block;
   padding: 5px 10px;
   margin-top: 5px;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
+  text-decoration: none;
 
   border-radius: 25px;
+  color: black;
   background-color: ${colors.newPriceBgColor};
 `;
 
@@ -71,4 +75,22 @@ export const StyledAdditBtn = styled(StyledBtn)`
   line-height: 1.1;
 
   border-radius: 25px;
+`;
+
+export const StyledAdditList = styled.ul`
+  padding: 0;
+`;
+
+export const StyledAdditItem = styled.li`
+  list-style: none;
+`;
+
+export const StyledCharList = styled.ul`
+  padding-left: 80px;
+  margin-top: 5px;
+`;
+
+export const StyledCharItem = styled(StyledItem)`
+  margin: 0;
+  font-size: 14px;
 `;

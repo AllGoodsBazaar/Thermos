@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import AdditionalOrderFirst from 'components/AdditionalOrder/AdditionalOrderFirst/AdditionalOrderFirst';
+import AdditionalOrder from 'components/AdditionalOrder/AdditionalOrder';
 import {
   StyledThkText,
   StyledThkSection,
@@ -25,7 +25,7 @@ const Thanks = () => {
       >
         Назад
       </StyledThkBtn>
-      <AdditionalOrderFirst />
+      <AdditionalOrder />
     </StyledThkSection>
   );
 };
