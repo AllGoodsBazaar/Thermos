@@ -14,9 +14,7 @@ const Thanks = () => {
   return (
     <StyledThkSection>
       <StyledThkTitle>Дякуємо за замовлення!</StyledThkTitle>
-      <StyledThkText>
-        Очікуйте на дзвінок від менеджера.
-      </StyledThkText>
+      <StyledThkText>Очікуйте на дзвінок від менеджера.</StyledThkText>
       <StyledThkBtn
         type="button"
         onClick={() => {
