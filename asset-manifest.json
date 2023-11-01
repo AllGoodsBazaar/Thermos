@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/Thermos/static/css/main.14aded6a.css",
-    "main.js": "/Thermos/static/js/main.06cf3aa1.js",
+    "main.js": "/Thermos/static/js/main.d0430c83.js",
     "static/media/img2.png": "/Thermos/static/media/img2.d7ccba3d3392952ab825.png",
     "static/media/mainPhoto.png": "/Thermos/static/media/mainPhoto.c32a9c9e6c94b3abe38f.png",
+    "static/media/brelokS.jpg": "/Thermos/static/media/brelokS.aa26ff24e88a5d25fc27.jpg",
+    "static/media/lampa.webp": "/Thermos/static/media/lampa.5bd6f809d6b56c3237e2.webp",
     "static/media/desc.jpg": "/Thermos/static/media/desc.d2f51b246db02aa4449c.jpg",
     "static/media/img.jpg": "/Thermos/static/media/img.731a10d1f99947d090e9.jpg",
+    "static/media/brelokT.jpg": "/Thermos/static/media/brelokT.a1da5bc00ab3236dbcfd.jpg",
     "static/media/red.jpg": "/Thermos/static/media/red.de0fa8d7d171517a3546.jpg",
     "static/media/delivery.jpg": "/Thermos/static/media/delivery.caaab3246a469c4d0e41.jpg",
-    "static/media/brelokS.jpg": "/Thermos/static/media/brelokS.0e612831e305629b5f78.jpg",
+    "static/media/fonar-ruchnoj.jpg": "/Thermos/static/media/fonar-ruchnoj.76aa82c24eed0494dfd0.jpg",
     "static/media/fonarik-brelok.jpg": "/Thermos/static/media/fonarik-brelok.299f872099dbb73fbed1.jpg",
     "static/media/secDesc.jpg": "/Thermos/static/media/secDesc.b91c4c61000d2d4653b9.jpg",
     "static/media/car.jpg": "/Thermos/static/media/car.8a25101f0ec3f772450b.jpg",
-    "static/media/brelokT.jpg": "/Thermos/static/media/brelokT.92490f47eb5eab7ee558.jpg",
     "index.html": "/Thermos/index.html",
     "static/media/iconClose.svg": "/Thermos/static/media/iconClose.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
     "main.14aded6a.css.map": "/Thermos/static/css/main.14aded6a.css.map",
-    "main.06cf3aa1.js.map": "/Thermos/static/js/main.06cf3aa1.js.map"
+    "main.d0430c83.js.map": "/Thermos/static/js/main.d0430c83.js.map"
   },
   "entrypoints": [
     "static/css/main.14aded6a.css",
-    "static/js/main.06cf3aa1.js"
+    "static/js/main.d0430c83.js"
   ]
 }
